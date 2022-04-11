@@ -19,3 +19,24 @@ Route::get(
         return view('home');
     }
 );
+
+Route::get(
+    '/contacts',
+    function(){
+        return view('contacts');
+    }
+);
+
+Route::get(
+    '/signin',
+    function(){
+        return view('signin');
+    }
+);
+
+Route::get(
+    '/where',
+    function(){
+        return view('where');
+    }
+);
