@@ -13,13 +13,21 @@
         <link href="/main.css" rel="stylesheet">      
     </head>
     <body>
-
-        {{ View::make('header') }}
-
-        <main>
-            <div class="flex-center position-ref full-height title m-b-md">
-                Hello World
-            </div>
-        </main>
+        <header>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/signin">Accedi</a>
+                </li>
+                <li>
+                    <a href="/contacts">Contatti</a>
+                </li>
+                <li>
+                    <a href="/where">Dove siamo</a>
+                </li>
+            </ul>
+        </header>
     </body>
 </html>
